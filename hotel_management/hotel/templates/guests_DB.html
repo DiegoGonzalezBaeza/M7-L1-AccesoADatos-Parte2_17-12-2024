@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guest List - DATA BASE</title>
+</head>
+<body>
+    <h1>Guest List - DATA BASE</h1>
+    <ul>
+        {% for guest in guests %}
+            <li>{{ guest.1 }} {{ guest.2 }} ({{ guest.3 }})</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
